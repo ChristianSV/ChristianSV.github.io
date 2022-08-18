@@ -4,6 +4,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
 .input {
     transition: border 0.2s ease-in-out;
     min-width: 280px
