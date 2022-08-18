@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Comunicado</title>
 </head>
-
 <body>
     <div class="md:h-screen bg-white relative flex flex-col justify-center items-center">
         <div class="md:border md:border-gray-300 bg-white md:shadow-lg shadow-none rounded p-10">
@@ -18,7 +18,13 @@
 cuando se halla terminado tal proceso se notificara por medio de su correo<br> coorpórativo. !Gracias¡</h4>
         </div>
     </div>
-    <?php
+    <center><a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=4827"></center>
+</body>
+
+</html>
+
+<?php
         session_start();
         $counter_name = "counter.txt";
 
@@ -47,6 +53,3 @@ cuando se halla terminado tal proceso se notificara por medio de su correo<br> c
 
         echo "You are visitor number $counterVal to this site";
     ?>
-</body>
-
-</html>
